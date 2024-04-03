@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://moreluck-yu.github.io</id>
+    <title>Yu blog</title>
+    <updated>2024-04-03T14:36:04.338Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://moreluck-yu.github.io"/>
+    <link rel="self" href="https://moreluck-yu.github.io/atom.xml"/>
+    <subtitle>「吾常终日而思矣，不如须臾之所学也」</subtitle>
+    <logo>https://moreluck-yu.github.io/images/avatar.png</logo>
+    <icon>https://moreluck-yu.github.io/favicon.ico</icon>
+    <rights>All rights reserved 2024, Yu blog</rights>
+    <entry>
+        <title type="html"><![CDATA[✍🏻️爱上写作，只需要掌握两种框架和六个步骤！]]></title>
+        <id>https://moreluck-yu.github.io/post/ai-shang-xie-zuo-zhi-xu-yao-zhang-wo-liang-chong-kuang-jia-he-liu-ge-bu-zou/</id>
+        <link href="https://moreluck-yu.github.io/post/ai-shang-xie-zuo-zhi-xu-yao-zhang-wo-liang-chong-kuang-jia-he-liu-ge-bu-zou/">
+        </link>
+        <updated>2024-04-03T12:31:43.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[「抑郁」的自述]]></title>
+        <id>https://moreluck-yu.github.io/post/yi-yu-de-zi-shu/</id>
+        <link href="https://moreluck-yu.github.io/post/yi-yu-de-zi-shu/">
+        </link>
+        <updated>2024-04-02T08:03:20.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[如何阅读：大量输入和强大的筛选器]]></title>
+        <id>https://moreluck-yu.github.io/post/ru-he-yue-du-da-liang-shu-ru-he-qiang-da-de-shai-xuan-qi/</id>
+        <link href="https://moreluck-yu.github.io/post/ru-he-yue-du-da-liang-shu-ru-he-qiang-da-de-shai-xuan-qi/">
+        </link>
+        <updated>2024-03-02T15:32:48.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[如何提高工作效率]]></title>
+        <id>https://moreluck-yu.github.io/post/lesslessru-he-ti-gao-gong-zuo-xiao-lu-greatergreater/</id>
+        <link href="https://moreluck-yu.github.io/post/lesslessru-he-ti-gao-gong-zuo-xiao-lu-greatergreater/">
+        </link>
+        <updated>2023-08-09T04:30:57.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Inception 的完成]]></title>
+        <id>https://moreluck-yu.github.io/post/inception-de-wan-cheng/</id>
+        <link href="https://moreluck-yu.github.io/post/inception-de-wan-cheng/">
+        </link>
+        <updated>2023-07-31T08:08:36.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Dark Side of ‘Hustle Culture’]]></title>
+        <id>https://moreluck-yu.github.io/post/the-dark-side-of-hustle-culture/</id>
+        <link href="https://moreluck-yu.github.io/post/the-dark-side-of-hustle-culture/">
+        </link>
+        <updated>2023-07-29T11:09:46.000Z</updated>
+    </entry>
+</feed>

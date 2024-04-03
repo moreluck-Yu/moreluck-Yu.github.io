@@ -1,0 +1,213 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+<meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Inception 的完成 | Yu blog</title>
+<link rel="shortcut icon" href="https://moreluck-yu.github.io/favicon.ico?v=1712154962363">
+<link href="https://cdn.jsdelivr.net/npm/remixicon@2.3.0/fonts/remixicon.css" rel="stylesheet">
+<link rel="stylesheet" href="https://moreluck-yu.github.io/styles/main.css">
+<link rel="alternate" type="application/atom+xml" title="Inception 的完成 | Yu blog - Atom Feed" href="https://moreluck-yu.github.io/atom.xml">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
+
+
+
+    <meta name="description" content="起因
+一开始看到伊哥的推文，后来就进了电报的频道，看着每天记录着起床时间，并且附带着诗文和由 Brad 生成的图。
+接着就开始了行动，去 GitHub 寻找链接 GitHub 搭配快捷指令，自动记录每天的起床时间 - 彭宏豪的个人博客，个人..." />
+    <meta name="keywords" content="折腾,记录" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+    <script src="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.5.1/build/highlight.min.js"></script>
+  </head>
+  <body>
+    <div class="main">
+      <div class="main-content">
+        <div class="site-header">
+  <a href="https://moreluck-yu.github.io">
+  <img class="avatar" src="https://moreluck-yu.github.io/images/avatar.png?v=1712154962363" alt="">
+  </a>
+  <h1 class="site-title">
+    Yu blog
+  </h1>
+  <p class="site-description">
+    「吾常终日而思矣，不如须臾之所学也」
+  </p>
+  <div class="menu-container">
+    
+      
+        <a href="/" class="menu">
+          首页
+        </a>
+      
+    
+      
+        <a href="/archives" class="menu">
+          归档
+        </a>
+      
+    
+      
+        <a href="/tags" class="menu">
+          标签
+        </a>
+      
+    
+      
+        <a href="/post/about" class="menu">
+          关于
+        </a>
+      
+    
+  </div>
+  <div class="social-container">
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+        <a href="https://www.instagram.com/decideddie/" target="_blank">
+          <i class="ri-facebook-line"></i>
+        </a>
+      
+    
+  </div>
+</div>
+
+        <div class="post-detail">
+          <article class="post">
+            <h2 class="post-title">
+              Inception 的完成
+            </h2>
+            <div class="post-info">
+              <span>
+                2023-07-31
+              </span>
+              <span>
+                3 min read
+              </span>
+              
+                <a href="https://moreluck-yu.github.io/tag/OFTZ-abR9/" class="post-tag">
+                  # 折腾
+                </a>
+              
+                <a href="https://moreluck-yu.github.io/tag/hTl5oddKB/" class="post-tag">
+                  # 记录
+                </a>
+              
+            </div>
+            
+            <div class="post-content-wrapper">
+              <div class="post-content" v-pre>
+                <h1 id="起因">起因</h1>
+<p>一开始看到伊哥的推文，后来就进了电报的频道，看着每天记录着起床时间，并且附带着诗文和由 Brad 生成的图。</p>
+<p>接着就开始了行动，去 GitHub 寻找链接 <a href="https://www.penghh.fun/2021/12/26/2021-12-26-githubshortcut/">GitHub 搭配快捷指令，自动记录每天的起床时间 - 彭宏豪的个人博客，个人电子产品使用心得</a></p>
+<h1 id="学会试错失败不可怕可怕的是不敢于失败">学会试错，失败不可怕，可怕的是不敢于失败。</h1>
+<h2 id="第一次">第一次</h2>
+<p>过程中找到一个同道中人，也使用了项目，就按照他的教程，完成了版本1，但是最后在 issues 在推送的内容缺没有诗句，而且没有具体的日期，一开始我就用了一个星期，没有改动代码。</p>
+<p>后来我回看我的记录，发现一个要命的问题———分不清是哪一天。我就尝试用 chatgpt 协助我完成，并且尝试去写可以输出诗句的功能和调用 Telegram bot 推送到群组中。</p>
+<p>这一次生成<strong>具体日期和诗句</strong>的功能成功了，但是生成的总是重复的句子。并且成功获得 bot 的 ID 和 token</p>
+<p>总体而言是，Fail</p>
+<h2 id="第二次">第二次</h2>
+<p>找到一个非常详细且正确的教程，其功能完整，可以生成随机的诗句。</p>
+<p>但是由于好奇心，又找到了记录睡觉的代码，我想添加进去，那么就行动吧。最后成功了，修改了工作流配置。</p>
+<p>我又不满足，看到可以让bot推送的内容，加上，上次我已经获得了密钥和ID，完成了很多内容，所以我想试试。成功了。<br>
+<a href="https://user-images.githubusercontent.com/140407974/257151253-18498b82-db77-4067-bc7b-025ff2df6363.png"><img src="https://user-images.githubusercontent.com/140407974/257151253-18498b82-db77-4067-bc7b-025ff2df6363.png" alt="image" loading="lazy"></a></p>
+<p>但是，事情总没有那么令人满意。是的出现了Bug，首先，issue 只能收到一次，Telegram中也是。</p>
+<h2 id="第三次">第三次</h2>
+<p>我反思了自己，目的是什么？为了满足我什么？</p>
+<p>我做了调整，简简单单就好，只完成了早起的记录。没有多余的。<br>
+十几分钟就完成了，全过程包括测试。</p>
+<h1 id="总结">总结</h1>
+<p>我想我会 怀念 并且 在我的记忆中永存着，很记忆深刻。</p>
+<p>更让我坚定确定的相信，对于我，我一直都知道的。「做任何事都不要上头」。</p>
+<p>“盗梦空间”的过程中持续的让我多巴胺分泌，有次甚至凌晨3点，才关掉电脑。它会不断的让我的好奇延伸扩大，被诱导着。</p>
+
+              </div>
+              <div class="toc-container">
+                <ul class="markdownIt-TOC">
+<li><a href="#%E8%B5%B7%E5%9B%A0">起因</a></li>
+<li><a href="#%E5%AD%A6%E4%BC%9A%E8%AF%95%E9%94%99%E5%A4%B1%E8%B4%A5%E4%B8%8D%E5%8F%AF%E6%80%95%E5%8F%AF%E6%80%95%E7%9A%84%E6%98%AF%E4%B8%8D%E6%95%A2%E4%BA%8E%E5%A4%B1%E8%B4%A5">学会试错，失败不可怕，可怕的是不敢于失败。</a>
+<ul>
+<li><a href="#%E7%AC%AC%E4%B8%80%E6%AC%A1">第一次</a></li>
+<li><a href="#%E7%AC%AC%E4%BA%8C%E6%AC%A1">第二次</a></li>
+<li><a href="#%E7%AC%AC%E4%B8%89%E6%AC%A1">第三次</a></li>
+</ul>
+</li>
+<li><a href="#%E6%80%BB%E7%BB%93">总结</a></li>
+</ul>
+
+              </div>
+            </div>
+          </article>
+        </div>
+
+        
+          <div class="next-post">
+            <div class="next">下一篇</div>
+            <a href="https://moreluck-yu.github.io/post/the-dark-side-of-hustle-culture/">
+              <h3 class="post-title">
+                The Dark Side of ‘Hustle Culture’
+              </h3>
+            </a>
+          </div>
+        
+
+        
+
+        <div class="site-footer">
+  Powered by <a href="https://github.com/moreluck-Yu">moreluck-Yu</a>
+  <a class="rss" href="https://moreluck-yu.github.io/atom.xml" target="_blank">
+    <i class="ri-rss-line"></i> RSS
+  </a>
+</div>
+
+      </div>
+    </div>
+
+    <script>
+      hljs.initHighlightingOnLoad()
+
+      let mainNavLinks = document.querySelectorAll(".markdownIt-TOC a");
+
+      // This should probably be throttled.
+      // Especially because it triggers during smooth scrolling.
+      // https://lodash.com/docs/4.17.10#throttle
+      // You could do like...
+      // window.addEventListener("scroll", () => {
+      //    _.throttle(doThatStuff, 100);
+      // });
+      // Only not doing it here to keep this Pen dependency-free.
+
+      window.addEventListener("scroll", event => {
+        let fromTop = window.scrollY;
+
+        mainNavLinks.forEach((link, index) => {
+          let section = document.getElementById(decodeURI(link.hash).substring(1));
+          let nextSection = null
+          if (mainNavLinks[index + 1]) {
+            nextSection = document.getElementById(decodeURI(mainNavLinks[index + 1].hash).substring(1));
+          }
+          if (section.offsetTop <= fromTop) {
+            if (nextSection) {
+              if (nextSection.offsetTop > fromTop) {
+                link.classList.add("current");
+              } else {
+                link.classList.remove("current");    
+              }
+            } else {
+              link.classList.add("current");
+            }
+          } else {
+            link.classList.remove("current");
+          }
+        });
+      });
+
+    </script>
+  </body>
+</html>
